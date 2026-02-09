@@ -15,6 +15,7 @@
     "agents": {
         "sisyphus": {
             "model": "github-copilot/gpt-5-mini",
+            // "model": "github-copilot/gpt-5.2-codex",
             "temperature": 0.3,
             "permission": {
                 "skill": {
@@ -23,13 +24,13 @@
             }
         },
         "hephaestus": {
-            "model": "github-copilot/gpt-4.1"
+            "model": "github-copilot/gpt-5.2"
         },
         "atlas": {
-            "model": "github-copilot/gpt-4.1"
+            "model": "github-copilot/gpt-5.2"
         },
         "prometheus": {
-            "model": "github-copilot/gpt-4.1",
+            "model": "github-copilot/gpt-5.2",
             "temperature": 0.3
         },
         "librarian": {
@@ -45,7 +46,7 @@
             }
         },
         "oracle": {
-            "model": "github-copilot/gpt-4.1"
+            "model": "github-copilot/gpt-5.2"
         },
         "frontend-ui-ux-engineer": {
             "model": "github-copilot/gemini-3-flash-preview"
