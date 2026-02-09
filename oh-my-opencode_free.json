@@ -1,0 +1,55 @@
+{
+  "google_auth": false,
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "sisyphus_agent": {
+    "disabled": false,
+    "default_builder_enabled": false,
+    "planner_enabled": true,
+    "replace_plan": true
+  },
+  "agents": {
+    "sisyphus": {
+      "model": "ksyun/kimi-k2.5",
+      "temperature": 0.3,
+      "permission": {
+        "skill": {
+          "*": "allow"
+        }
+      }
+    },
+    "hephaestus": {
+      "model": "ksyun/kimi-k2.5"
+    },
+    "atlas": {
+      "model": "ksyun/kimi-k2.5"
+    },
+    "prometheus": {
+      "model": "ksyun/kimi-k2.5",
+      "temperature": 0.3
+    },
+    "librarian": {
+      "model": "ksyun/kimi-k2.5"
+    },
+    "explore": {
+      "model": "ksyun/deepseek-v3.2",
+      "temperature": 0.5,
+      "permission": {
+        "edit": "deny",
+        "bash": "ask",
+        "webfetch": "allow"
+      }
+    },
+    "oracle": {
+      "model": "ksyun/kimi-k2.5"
+    },
+    "frontend-ui-ux-engineer": {
+      "model": "ksyun/kimi-k2.5"
+    },
+    "document-writer": {
+      "model": "ksyun/kimi-k2.5"
+    },
+    "multimodal-looker": {
+      "model": "ksyun/kimi-k2.5"
+    }
+  }
+}

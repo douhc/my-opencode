@@ -1,0 +1,60 @@
+{
+    "google_auth": false,
+    "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+    "sisyphus_agent": {
+        "disabled": false,
+        "default_builder_enabled": false,
+        "planner_enabled": true,
+        "replace_plan": true
+    },
+    "python": {
+      "lsp": {
+        "command": "basedpyright-langserver"
+      }
+    },
+    "agents": {
+        "sisyphus": {
+            "model": "github-copilot/gpt-5.2-codex",
+            "temperature": 0.3,
+            "permission": {
+                "skill": {
+                    "*": "allow"
+                }
+            }
+        },
+        "hephaestus": {
+            "model": "github-copilot/gpt-5.1"
+        },
+        "atlas": {
+            "model": "github-copilot/gpt-5.2"
+        },
+        "prometheus": {
+            "model": "github-copilot/gpt-4o",
+            "temperature": 0.3
+        },
+        "librarian": {
+            "model": "github-copilot/gpt-4o"
+        },
+        "explore": {
+            "model": "github-copilot/gpt-4o",
+            "temperature": 0.5,
+            "permission": {
+                "edit": "deny",
+                "bash": "ask",
+                "webfetch": "allow"
+            }
+        },
+        "oracle": {
+            "model": "github-copilot/gemini-3-pro-preview"
+        },
+        "frontend-ui-ux-engineer": {
+            "model": "github-copilot/gemini-3-flash-preview"
+        },
+        "document-writer": {
+            "model": "ksyun/kimi-k2.5"
+        },
+        "multimodal-looker": {
+            "model": "ksyun/kimi-k2.5"
+        }
+    }
+}
