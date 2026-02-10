@@ -85,7 +85,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "Ksyun OpenAI Compatible",
       "options": {
-        "apiKey": "sk-Fl731B0kfbkS4RTcbblw5g",
+        "apiKey": "{file:~/.secrets/ksyun-api-key}",
         "baseURL": "http://mgw.proxy.ksyun.com/v1"
       },
       "models": {
@@ -101,7 +101,7 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "DeepSeek OpenAI Compatible",
       "options": {
-        "apiKey": "sk-edc515391c504c53b9c838196b5ddaa9",
+        "apiKey": "{file:~/.secrets/ksyun-api-key}",
         "baseURL": "https://api.deepseek.com"
       },
       "models": {
@@ -113,7 +113,7 @@
       "name": "jiekou.ai",
       "options": {
         "baseURL": "https://api.jiekou.ai/openai",
-        "apiKey": "sk_h1Fbihi53O7iQVM2cpJvkpptl2f7C0oq_qhY6cmaF2s"
+        "apiKey": "{file:~/.secrets/jiekou.ai-api-key}"
       },
       "models": {
         "claude-opus-4-5": {"name": "claude-opus-4-5"},
